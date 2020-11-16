@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3457EBA2-F3C2-38B4-99B6-0D10BDA8834D}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/大三上/5计算机图形学/实验/glfw-3.3.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\bin\cmake.exe -SE:/大三上/5计算机图形学/实验/glfw-3.3.2 -BE:/大三上/5计算机图形学/实验/glfw-3.3.2/build --check-stamp-file E:/大三上/5计算机图形学/实验/glfw-3.3.2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeCInformation.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeDependentOption.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeRCInformation.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CheckIncludeFile.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CheckLibraryExists.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\FindDoxygen.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\FindPackageMessage.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\FindThreads.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\GNUInstallDirs.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\Platform\Windows.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\CMakeFiles\3.19.0-rc2\CMakeCCompiler.cmake;E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\CMakeFiles\3.19.0-rc2\CMakeRCCompiler.cmake;E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\CMakeFiles\3.19.0-rc2\CMakeSystem.cmake;E:\大三上\5计算机图形学\实验\glfw-3.3.2\cmake_uninstall.cmake.in;E:\大三上\5计算机图形学\实验\glfw-3.3.2\src\glfw3.pc.in;E:\大三上\5计算机图形学\实验\glfw-3.3.2\src\glfw3Config.cmake.in;E:\大三上\5计算机图形学\实验\glfw-3.3.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/大三上/5计算机图形学/实验/glfw-3.3.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\bin\cmake.exe -SE:/大三上/5计算机图形学/实验/glfw-3.3.2 -BE:/大三上/5计算机图形学/实验/glfw-3.3.2/build --check-stamp-file E:/大三上/5计算机图形学/实验/glfw-3.3.2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeCInformation.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeDependentOption.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeRCInformation.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CheckIncludeFile.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CheckLibraryExists.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\FindDoxygen.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\FindPackageMessage.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\FindThreads.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\GNUInstallDirs.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\Platform\Windows.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\CMakeFiles\3.19.0-rc2\CMakeCCompiler.cmake;E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\CMakeFiles\3.19.0-rc2\CMakeRCCompiler.cmake;E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\CMakeFiles\3.19.0-rc2\CMakeSystem.cmake;E:\大三上\5计算机图形学\实验\glfw-3.3.2\cmake_uninstall.cmake.in;E:\大三上\5计算机图形学\实验\glfw-3.3.2\src\glfw3.pc.in;E:\大三上\5计算机图形学\实验\glfw-3.3.2\src\glfw3Config.cmake.in;E:\大三上\5计算机图形学\实验\glfw-3.3.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/大三上/5计算机图形学/实验/glfw-3.3.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\bin\cmake.exe -SE:/大三上/5计算机图形学/实验/glfw-3.3.2 -BE:/大三上/5计算机图形学/实验/glfw-3.3.2/build --check-stamp-file E:/大三上/5计算机图形学/实验/glfw-3.3.2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeCInformation.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeDependentOption.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeRCInformation.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CheckIncludeFile.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CheckLibraryExists.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\FindDoxygen.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\FindPackageMessage.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\FindThreads.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\GNUInstallDirs.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\Platform\Windows.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\CMakeFiles\3.19.0-rc2\CMakeCCompiler.cmake;E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\CMakeFiles\3.19.0-rc2\CMakeRCCompiler.cmake;E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\CMakeFiles\3.19.0-rc2\CMakeSystem.cmake;E:\大三上\5计算机图形学\实验\glfw-3.3.2\cmake_uninstall.cmake.in;E:\大三上\5计算机图形学\实验\glfw-3.3.2\src\glfw3.pc.in;E:\大三上\5计算机图形学\实验\glfw-3.3.2\src\glfw3Config.cmake.in;E:\大三上\5计算机图形学\实验\glfw-3.3.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/大三上/5计算机图形学/实验/glfw-3.3.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\bin\cmake.exe -SE:/大三上/5计算机图形学/实验/glfw-3.3.2 -BE:/大三上/5计算机图形学/实验/glfw-3.3.2/build --check-stamp-file E:/大三上/5计算机图形学/实验/glfw-3.3.2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeCInformation.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeDependentOption.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeRCInformation.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CheckIncludeFile.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\CheckLibraryExists.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\FindDoxygen.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\FindPackageMessage.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\FindThreads.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\GNUInstallDirs.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\Platform\Windows.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;E:\大三上\5计算机图形学\实验\cmake-3.19.0-rc2-win32-x86\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\CMakeFiles\3.19.0-rc2\CMakeCCompiler.cmake;E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\CMakeFiles\3.19.0-rc2\CMakeRCCompiler.cmake;E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\CMakeFiles\3.19.0-rc2\CMakeSystem.cmake;E:\大三上\5计算机图形学\实验\glfw-3.3.2\cmake_uninstall.cmake.in;E:\大三上\5计算机图形学\实验\glfw-3.3.2\src\glfw3.pc.in;E:\大三上\5计算机图形学\实验\glfw-3.3.2\src\glfw3Config.cmake.in;E:\大三上\5计算机图形学\实验\glfw-3.3.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\ZERO_CHECK.vcxproj">
+      <Project>{4C781986-DDAD-3223-A8EA-C96DFB1BB48A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\examples\boing.vcxproj">
+      <Project>{B06FB968-E088-3409-B8DF-8615DDA48AE8}</Project>
+      <Name>boing</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\tests\clipboard.vcxproj">
+      <Project>{395406F6-2587-3133-BBF3-A16A70DFBA6B}</Project>
+      <Name>clipboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\tests\cursor.vcxproj">
+      <Project>{654C94D1-ADD6-33E9-98BE-B793E9C4F718}</Project>
+      <Name>cursor</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\tests\empty.vcxproj">
+      <Project>{A8E70F1C-B3C2-383B-90B2-58F3FC775D74}</Project>
+      <Name>empty</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\tests\events.vcxproj">
+      <Project>{042168EE-C8EB-35FE-AE23-54FD01E0DF33}</Project>
+      <Name>events</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\tests\gamma.vcxproj">
+      <Project>{99E38233-F729-3302-99D1-E66E6DB4915F}</Project>
+      <Name>gamma</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\examples\gears.vcxproj">
+      <Project>{4C5F18BB-AA0F-3E87-997E-EEBF141A3FAD}</Project>
+      <Name>gears</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\src\glfw.vcxproj">
+      <Project>{AD60E3D5-B8EC-3255-A2CE-3A50FD8E31D2}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\tests\glfwinfo.vcxproj">
+      <Project>{5AAD6E52-D9DE-38F7-B3D5-240EBC51400C}</Project>
+      <Name>glfwinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\examples\heightmap.vcxproj">
+      <Project>{42B21E6D-5EBB-37EC-8D02-3660374A83AC}</Project>
+      <Name>heightmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\tests\icon.vcxproj">
+      <Project>{2D19E5A5-9C7B-3141-9962-2B5334D7F8E6}</Project>
+      <Name>icon</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\tests\iconify.vcxproj">
+      <Project>{D07F1C50-7671-313C-836F-0F1D6ED4ED7E}</Project>
+      <Name>iconify</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\tests\inputlag.vcxproj">
+      <Project>{1713423E-9CF0-316D-B8D0-1599B6D3D533}</Project>
+      <Name>inputlag</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\tests\joysticks.vcxproj">
+      <Project>{8723F6D7-9681-380E-991D-DA04085BDB4E}</Project>
+      <Name>joysticks</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\tests\monitors.vcxproj">
+      <Project>{FD189BAF-8CCE-3B2D-BBDD-C2098EDF2095}</Project>
+      <Name>monitors</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\tests\msaa.vcxproj">
+      <Project>{EE1C1301-2556-3A04-BCE7-14FDA70D82F6}</Project>
+      <Name>msaa</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\examples\offscreen.vcxproj">
+      <Project>{6354DB58-2AD8-32B6-96BF-1C80AB984D10}</Project>
+      <Name>offscreen</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\tests\opacity.vcxproj">
+      <Project>{B008F5DC-1A40-32E5-96D2-7C66E275E26C}</Project>
+      <Name>opacity</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\examples\particles.vcxproj">
+      <Project>{76264270-FA5A-340F-983D-45827C14AB84}</Project>
+      <Name>particles</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\tests\reopen.vcxproj">
+      <Project>{6F02128F-22D4-3EE7-A298-30049D1D01DA}</Project>
+      <Name>reopen</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\examples\sharing.vcxproj">
+      <Project>{09628108-53AE-3B3D-8B28-A81A7BA9E3E2}</Project>
+      <Name>sharing</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\examples\simple.vcxproj">
+      <Project>{9A256C11-DAAC-353E-9DEC-42C6866FB3DF}</Project>
+      <Name>simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\examples\splitview.vcxproj">
+      <Project>{4DD6F092-73D7-372F-85E9-74F107950A0C}</Project>
+      <Name>splitview</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\tests\tearing.vcxproj">
+      <Project>{5E2BCE86-9949-3C24-A352-774AB6909956}</Project>
+      <Name>tearing</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\tests\threads.vcxproj">
+      <Project>{658D48EB-BC9E-3816-8647-C1AE91DA9EAD}</Project>
+      <Name>threads</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\tests\timeout.vcxproj">
+      <Project>{43BC70F6-031A-3009-9EEB-FE1DE9FBEE3C}</Project>
+      <Name>timeout</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\tests\title.vcxproj">
+      <Project>{AF578FCC-672A-3703-8911-FEEB4FA844AA}</Project>
+      <Name>title</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\tests\triangle-vulkan.vcxproj">
+      <Project>{8653BF08-8CED-3308-95FE-D64A3DAFA010}</Project>
+      <Name>triangle-vulkan</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\examples\wave.vcxproj">
+      <Project>{41E4C843-53BF-3B39-BEE7-03963D5EE4C4}</Project>
+      <Name>wave</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\大三上\5计算机图形学\实验\glfw-3.3.2\build\tests\windows.vcxproj">
+      <Project>{7B7F8490-4B0D-3FBE-9F2F-D1CD3DD24792}</Project>
+      <Name>windows</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

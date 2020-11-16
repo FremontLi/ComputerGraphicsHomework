@@ -1,0 +1,2 @@
+﻿  glad.c
+E:\大三上\5计算机图形学\实验\FirstOpenGL\FirstOpenGL\glad.c(25,10): fatal error C1083: 无法打开包括文件: “glad/glad.h”: No such file or directory
